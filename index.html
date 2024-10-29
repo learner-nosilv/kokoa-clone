@@ -7,11 +7,10 @@
     <title>Welcome to CoMooDen-Don</title>
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <!-- wifi column -->
       <div class="status-bar__column">
         <span>No Service</span>
-        <!-- [To Do] Icon-Wifi -->
         <i class="fa-solid fa-wifi"></i>
         </svg>
       </div>
@@ -22,13 +21,24 @@
       <!-- battery column -->
       <div class="status-bar__column">
         <span>25%</span>
-        <!-- [To Do] Battery Icon -->
         <i class="fa-solid fa-battery-quarter"></i>
-
-        <!-- [To Do] Lightning Icon -->
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
+    
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Comooden-Don</h1>
+        <p class="welcome-header__text">If you have the Account, log in now :D</p>
+    </header>
+
+    <form id="login-form">
+        <input type="text" placeholder="Student ID"/>
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Log In"/>
+        <input type="submit" value="Sign Up"/>
+        <a href="#">Find My Id or Password</a>
+    </form>
+
     <script src="https://kit.fontawesome.com/692f170f0e.js" crossorigin="anonymous"></script>
   </body>
 </html>
