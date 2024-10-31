@@ -1,0 +1,16 @@
+body: 원치않는 8px margin
+-> reset css
+https://meyerweb.com/eric/tools/css/reset/
+
+대부분의 태그에 margin padding border 0로 초기화해주는 스타일
+https://hihiha2.tistory.com/154
+https://velog.io/@teo/2022-CSS-Reset-%EB%8B%A4%EC%8B%9C-%EC%8D%A8%EB%B3%B4%EA%B8%B0
+https://www.joshwcomeau.com/css/custom-css-reset/
+
+해당 파일을 styles.css에 import 하기
+@import "file-name";
+
+css를 사용해서 추가하는 것이 좋다
+html에 link를 많이 만들고싶지 않으니깐
+브라우저스타일을 없애고 
+우리가 직접 디자인하는 것이 좋다!
