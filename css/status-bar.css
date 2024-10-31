@@ -4,10 +4,10 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings: "wdth" 95;
+    font-variation-settings: "wdth" 100;
     display: flex; /* make items at the same line */
     align-items: center;
-    padding: 5px;
+    padding : 0px 5px;
   }
   .status-bar__column {
     width: 33%; /* to make time column(2nd item) on center */
