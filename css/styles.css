@@ -2,25 +2,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import "reset.css";
 @import "status-bar.css";
+@import "variables.css";
 
 /* 화면이 너무 긴 경우 박스높이 고정*/
-@media screen and (min-height:1200px){
-  body{
-    height:1200px;
+@media screen and (min-height: 1200px) {
+  body {
+    height: 1200px;
   }
 }
 
 /* 그렇지 않다면 박스높이: viewport height*/
-@media screen and not(min-height:1200px){
-  body{
-    height:100vh;
+@media screen and not(min-height:1200px) {
+  body {
+    height: 100vh;
   }
 }
 
 /* 화면이 너무 좁은 경우 박스너비 고정*/
-@media screen and (max-width:340px){
-  body{
-    width:340px;
+@media screen and (max-width: 340px) {
+  body {
+    width: 340px;
   }
 }
 
@@ -35,21 +36,78 @@ body {
 }
 
 .welcome-header {
-  margin: 8vh 0vh ; /* parent : body */
+  margin: 8vh 0vh; /* parent : body */
   text-align: center;
   display: flex;
-  flex-direction : column;
+  flex-direction: column;
   align-items: center;
 }
 
-.welcome-header__title{
-  margin-bottom:3vh;
+.welcome-header__title {
+  margin-bottom: 3vh;
   font-size: 25px;
   font-weight: 500;
 }
 
 .welcome-header__text {
   font-size: 18px;
+  font-weight: 500;
   line-height: 25px;
-  opacity: 0.7;/* color: #8C8C8C; */
+  opacity: 0.5; /* color: #7C7C7C; */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+/*.login-form > input 으로하니까 적용우선순위가 더 앞으로 옴*/
+.login-form__input,
+.login-form__btn {
+  padding: 20px 0px;
+  font-size: 20px;
+  border: none;
+}
+
+.login-form__input {
+  border-bottom: 2px solid #d7d7d7;
+  transition: border-color 0.3s ease-in-out;
+  &:nth-of-type(2) {
+    margin-bottom: 5vh;
+  }
+}
+
+.login-form__input::placeholder {
+  color: #a2a2a2;
+}
+
+.login-form__input:focus {
+  border-color: var(--yellow);
+}
+
+/* login button */
+.login-form__btn {
+  margin-bottom: 2.5vh;
+  background-color: #f6f6f6;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer; /* not-allowed, progress... */
+  border-bottom: none;
+  border-radius: 5px;
+}
+
+.login-form__btn:hover {
+  background-color: var(--yellow);
+}
+
+/* find your id, password*/
+.login-form__a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}
+
+.login-form__a:hover {
+  text-decoration: underline;
 }

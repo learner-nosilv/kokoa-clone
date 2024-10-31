@@ -38,3 +38,6 @@ status-bar를 따로 분리한 건 모든 페이지에 있기때문이야
 ---
 가변폰트 크기조정
 https://ctrlcccv.github.io/code/2024-01-14-variable-font/
+
+센터로 보내는거 까먹음
+그냥 text-align  center인데
