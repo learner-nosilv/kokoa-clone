@@ -41,3 +41,21 @@ https://ctrlcccv.github.io/code/2024-01-14-variable-font/
 
 센터로 보내는거 까먹음
 그냥 text-align  center인데
+
+---
+
+F12할 때 취소선그어진채로 적용안되는 것들 있어서 힘들었음
+해결함(적용우선순위에따라 덮어짐)
+
+---
+
+form action="" method=""
+action attribute : 어떤 페이지로 data를 보낼건지
+method attribute : post, get
+  post는 여기서 사용X - 백엔드서버에 정보를 전송하는 방식
+  get는 정보에 취약함 / URL에 포함되어도 상관없는 
+  
+---
+navigation은 ul 속 li로 구성된다
+  구글검색엔진도 nav를 찾으면 ul안의 li안의 link를 가져오게끔 설정되어있다.
+  vsc단축키 : nav > ul > li*4

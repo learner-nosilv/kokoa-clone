@@ -1,1 +1,94 @@
-hello
+<!-- 02.png 구현 :  로그인 창 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to CcoccoaTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <!-- wifi column -->
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <!-- time column -->
+      <div class="status-bar__column">
+        <span>15:28</span>
+      </div>
+      <!-- battery column -->
+      <div class="status-bar__column">
+        <span>25%</span>
+        <i class="fa-solid fa-battery-quarter fa-2x"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="friends-header">
+      <h1 class="friends-header__title">Friends</h1>
+      <div class="friends-header_icons">
+        <span
+          ><i
+            class="fa-solid fa-magnifying-glass fa-lg"
+            style="color: var(--real-darkgray)"
+          ></i
+        ></span>
+        <span
+          ><i
+            class="fa-solid fa-music fa-lg"
+            style="color: var(--real-darkgray)"
+          ></i
+        ></span>
+        <span
+          ><i
+            class="fa-solid fa-gear fa-lg"
+            style="color: var(--real-darkgray)"
+          ></i
+        ></span>
+      </div>
+    </header>
+
+    <!-- vsc단축키 : nav > ul > li*4> a-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn" name="friends">
+          <a class="nav__link" href="friends.html">
+            <i class="fa-solid fa-user fa-2x" style="color: var(--darkgray)"></i
+          ></a>
+        </li>
+        <li class="nav__btn" name="Chats">
+          <a class="nav__link" href="#">
+            <span class="nav__notification">1</span>
+            <i
+              class="fa-regular fa-comment fa-2x"
+              style="color: var(--darkgray)"
+            ></i
+          ></a>
+        </li>
+        <li class="nav__btn" name="Search">
+          <a class="nav__link" href="#"
+            ><i
+              class="fa-solid fa-magnifying-glass fa-2x"
+              style="color: var(--darkgray)"
+            ></i
+          ></a>
+        </li>
+        <li class="nav__btn" name="Find">
+          <a class="nav__link" href="#"
+            ><i
+              class="fa-solid fa-ellipsis fa-2x"
+              style="color: var(--darkgray)"
+            ></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/692f170f0e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

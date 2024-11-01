@@ -6,23 +6,24 @@
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* Screens */
 @import "screens/login.css";
 
 /* 화면이 너무 긴 경우 박스높이 고정*/
-@media screen and (min-height: 1200px) {
+/* @media screen and (min-height: 1200px) {
   body {
     height: 1200px;
   }
-}
+} */
 
 /* 그렇지 않다면 박스높이: viewport height*/
-@media screen and not(min-height:1200px) {
+/* @media screen and not(min-height:1200px) {
   body {
     height: 100vh;
   }
-}
+} */
 
 /* 화면이 너무 좁은 경우 박스너비 고정*/
 @media screen and (max-width: 340px) {
