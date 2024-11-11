@@ -1,0 +1,16 @@
+/*landing page after login*/
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: var(--real-lightgray);
+  padding: 13px 0px;
+  font-weight: 500;
+}
+
+#friends-display-link > i:first-child {
+  margin-right: 3px;
+}
+
+#friends-display-link > i:last-child {
+  margin-left: 5px;
+}
