@@ -27,6 +27,7 @@ html에 link를 많이 만들고싶지 않으니깐
 
 원치않는 커밋합치기 진짜 맨날 ..ㅠㅠ
 https://solidbasics.tistory.com/63
+https://ios-development.tistory.com/1355
 
 살짝 margin 추가하기
 
@@ -59,3 +60,17 @@ method attribute : post, get
 navigation은 ul 속 li로 구성된다
   구글검색엔진도 nav를 찾으면 ul안의 li안의 link를 가져오게끔 설정되어있다.
   vsc단축키 : nav > ul > li*4
+  ---
+  폰트어썸아이콘사이즈
+  https://docs.fontawesome.com/web/style/size
+
+---
+
+width : 200px 상태면
+200px content에 / 50px border 혹은 padding 을 추가하면
+250px로 전체 box를 늘린다
+
+만약 width를 200px로 유지하고 싶으면
+box-size:border-box 로 설정하면된다
+width :200px로 박스사이즈가 고정되고
+content영역이 줄어든다

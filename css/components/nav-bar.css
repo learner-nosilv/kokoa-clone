@@ -17,7 +17,7 @@
   position: relative; /*for notification position*/
 }
 
-.nav__notification {
+.nav__msg-notification {
   background-color: tomato;
   color: white;
   font-size: small;
@@ -31,4 +31,13 @@
   position: absolute;
   left: 50%;
   top: -95%;
+}
+
+.nav__update {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  left: 110%;
 }
