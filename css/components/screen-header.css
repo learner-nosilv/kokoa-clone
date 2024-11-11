@@ -2,16 +2,17 @@
   display: fixed;
   display: flex;
   justify-content: space-between;
-  padding: 25px;
+  align-items: center;
+  margin-top: 30px;
+  padding: 15px;
 }
 
 .friends-header__title {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 700;
   align-items: center;
 }
 
 .friends-header_icons > span {
-
   margin-left: 20px;
 }
