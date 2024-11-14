@@ -1,8 +1,11 @@
 :root {
   --yellow: #fae100;
+  --alert-red: #ff4c03;
   --real-darkgray: #2b2b2b;
   --darkgray: #494949;
+  --little-darkgray: #868686;
   --gray: #9a9a9a;
   --lightgray: #d5d5d5;
   --real-lightgray: #fafafa;
+  --horizontal-space: 15px;
 }

@@ -18,7 +18,7 @@
 }
 
 .nav__msg-notification {
-  background-color: tomato;
+  background-color: var(--alert-red);
   color: white;
   font-size: small;
   font-weight: 600;
@@ -34,7 +34,7 @@
 }
 
 .nav__update {
-  background-color: tomato;
+  background-color: var(--alert-red);
   width: 8px;
   height: 8px;
   border-radius: 50%;

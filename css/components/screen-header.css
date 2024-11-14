@@ -3,8 +3,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
-  padding: 15px;
+  margin-top: 50px;
+  padding: var(--horizontal-space);
 }
 
 .friends-header__title {
