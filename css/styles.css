@@ -10,6 +10,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user.css";
+@import "components/counter.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -45,4 +46,8 @@ body {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }

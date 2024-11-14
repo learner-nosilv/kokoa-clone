@@ -6,6 +6,7 @@
   padding: 13px 0px;
   font-weight: 500;
   margin-bottom: 10px;
+  margin-top: -15px;
 }
 
 #friends-display-link > i:first-child {
@@ -14,10 +15,6 @@
 
 #friends-display-link > i:last-child {
   margin-left: 5px;
-}
-
-.friends-screen {
-  padding: 0px var(--horizontal-space);
 }
 
 .friends-screen__channel {

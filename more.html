@@ -1,11 +1,11 @@
-<!-- 04.png 구현 :  채팅창 모음 -->
+<!-- 03.png 구현 :  로그인 이후 메인 창(친구목록) -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - CcoccoA Talk</title>
+    <title>More - CcoccoA Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -27,17 +27,11 @@
     </div>
 
     <header class="friends-header">
-      <h1 class="friends-header__title">Chats</h1>
+      <h1 class="friends-header__title">Friends</h1>
       <div class="friends-header_icons">
         <span
           ><i
             class="fa-solid fa-magnifying-glass fa-lg"
-            style="color: var(--real-darkgray)"
-          ></i
-        ></span>
-        <span
-          ><i
-            class="fa-solid fa-comment-medical fa-lg"
             style="color: var(--real-darkgray)"
           ></i
         ></span>
@@ -55,22 +49,48 @@
         ></span>
       </div>
     </header>
-    <main class="main-screen">
-      <!--다른 유저 사진, 닉네임, 채팅내용으로 구성된 파트-->
+
+    <a id="friends-display-link">
+      <i class="fa-solid fa-circle-info" style="color: var(--lightgray)"></i>
+      Friend's Names Display
+      <i class="fa-solid fa-angle-right" style="color: var(--lightgray)"></i>
+    </a>
+
+    <main class="friends-screen">
+      <!--본인 사진, 닉네임으로 구성된 파트-->
       <div class="user">
         <div class="user__column">
           <img
-            class="user__main-photo user__main-photo"
+            class="user__main-photo user__main-photo--xl"
             src="img/fighting-baby.jpg"
           />
           <div class="user__textbox">
-            <h4 class="user__nickname">CcoTalk</h4>
-            <h6 class="user__subtitle">Please check My Account info</h6>
+            <h4 class="user__nickname">Nosilv</h4>
+            <h6 class="user__subtitle">this text whatever</h6>
           </div>
+          <div class="user__column"></div>
         </div>
-        <div class="user__column">
-          <span class="user__time">21:22</span>
-          <span class="user__counter counter">1</span>
+      </div>
+      <!-- 친구 및 오픈채널 목록-->
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-angle-up" style="color: var(--gray)"></i>
+        </div>
+        <div class="user">
+          <div class="user__column">
+            <img
+              class="user__main-photo user__main-photo--sm"
+              src="img/fighting-baby.jpg"
+            />
+            <div class="user__textbox">
+              <h4 class="user__nickname user__nickname--not-bold">Channel</h4>
+            </div>
+          </div>
+          <div class="user__column">
+            <span>2</span>
+            <i class="fa-solid fa-angle-right" style="color: var(--gray)"></i>
+          </div>
         </div>
       </div>
     </main>
@@ -79,17 +99,14 @@
       <ul class="nav__list">
         <li class="nav__btn" name="friends">
           <a class="nav__link" href="friends.html">
-            <i
-              class="fa-regular fa-user fa-2x"
-              style="color: var(--darkgray)"
-            ></i
+            <i class="fa-solid fa-user fa-2x" style="color: var(--darkgray)"></i
           ></a>
         </li>
         <li class="nav__btn" name="Chats">
           <a class="nav__link" href="chats.html">
-            <span class="counter nav__msg-notification">1</span>
+            <span class="nav__msg-notification">1</span>
             <i
-              class="fa-solid fa-comment fa-2x"
+              class="fa-regular fa-comment fa-2x"
               style="color: var(--darkgray)"
             ></i
           ></a>

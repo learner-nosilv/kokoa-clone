@@ -47,3 +47,12 @@
 .user__column:last-child {
   color: var(--gray);
 }
+
+.user__counter {
+  margin-left: auto;
+}
+
+.user__time {
+  display: block;
+  margin-bottom: 8px;
+}
